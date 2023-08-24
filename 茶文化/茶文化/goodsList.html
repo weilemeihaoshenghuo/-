@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>名茶介绍</title>
+    <link type="text/css" rel="stylesheet" href="css/base.css" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link type="text/css" rel="stylesheet" href="css/goodsList.css" />
+    <link rel="stylesheet" href="../plug/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../favicon.ico" />
+
+    <style type="text/css">
+        .auto-style6 {
+            width: 1920px;
+            height: 150px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="siteNav">
+        <div id="siteNavCon">
+            <ul class="left">
+                <li>
+                    <a href="#">欢迎来到我的茶馆</a>
+                </li>
+                <li>
+                    <a href="login.html" class="red">登录</a>
+                </li>
+                <li>
+                    <a href="register.html">免费注册</a>
+                </li>
+            </ul>
+            <ul class="right">
+                <li class="navTitle " id="menu" onmouseover="fun1()" onmouseout="fun2()">
+                    <a href="#">我的订单 <i class="downUp"></i></a>
+                    <ul class="siteNavPanel" id="menuContent">
+                        <li><a href="#">待付款订单</a></li>
+                        <li><a href="#">商品已发货</a></li>
+                        <li><a href="#">待评价订单</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">收藏夹</a></li>
+                <li><a href="#">商品分类</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="header1">
+        <div class="bj" >
+          <img src="img/112.jpg"/>
+        </div>
+
+    </div>
+    <div class="mainNav">
+        <!--存频道-->
+        <div class="innerCon">
+            <div class="innerConRight">
+                <a href="index.html">首页
+                     <div class="hoverImg"></div>
+                </a>
+                <a href="gouwu.html">购茶选茶</a>
+                <a href="goodsList.html">名茶介绍</a>
+                <a href="wenhua.html">茶道文化</a>
+                <a href="#">茶德</a>
+                <a href="#">茶故事</a>
+                <a href="#">茶画</a>
+                <a href="#">茶艺</a>
+                <a href="#">茶学</a>
+                <a href="#">茶精神</a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="sort">
+            <a href="#" class="fSort">综合 <i class="fa  fa-arrow-down"></i></a>
+            <a href="#" class="fSort">苦涩<i class="fa  fa-arrow-up"></i> </a>
+            <a href="#" class="fSort">新品<i class="fa  fa-arrow-down"></i> </a>
+            <a href="#" class="fSort fSortCur">热度<i class="fa fa-chevron-up up"></i><i class="fa fa-chevron-down down"></i>  </a>
+
+            <p class="smallPage">
+                <b class="smallPageNum">1/100</b>
+                <b class="smallPagePrev">&lt;</b>
+                <a class="smallPageNext">&gt;</a>
+            </p>
+        </div>
+        <div id="goodsList">
+            <div class="goodsItem">
+                <div class="goodsItemWrap">
+                    <div class="goodsImg">
+                        <a href="#">
+                            <img src="img/goods/1.jpg" />
+                        </a>
+                    </div>
+                    <p class="goodsPrice">
+                        绿茶 <span class="average">杀青，烘干而得</span>
+                    </p>
+                    <p class="goodsTitle">
+                        防衰老、防癌、杀菌、消淡等功效
+                    </p>
+                    <p class="goodsStatus">
+                        <span>热度<em>6000</em>+</span>
+                        <span class="norightborder">月评价<em>6000</em>个</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="goodsItem">
+                <div class="goodsItemWrap">
+                    <div class="goodsImg">
+                        <a href="#">
+                            <img src="img/goods/2.jpg" />
+                        </a>
+                    </div>
+                    <p class="goodsPrice">
+                        红茶 <span class="average">茶多酚酶氧化而得</span>
+                    </p>
+                    <p class="goodsTitle">
+                        促进新陈代谢、利尿消水肿&nbsp;
+                    </p>
+                    <p class="goodsStatus">
+                        <span>热度<em>6000</em>+</span>
+                        <span class="norightborder">月评价<em>6000</em>个</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="goodsItem">
+                <div class="goodsItemWrap">
+                    <div class="goodsImg">
+                        <a href="#">
+                            <img src="img/goods/3.jpg" />
+                        </a>
+                    </div>
+                    <p class="goodsPrice">
+                        黑茶 <span class="average">发酵而得</span>
+                    </p>
+                    <p class="goodsTitle">
+                        <a href="#">降低胆固醇、减肥、美容抗衰老&nbsp;
+                   </a>
+                    </p>
+                    <p class="goodsStatus">
+                        <span>热度<em>6000</em>+</span>
+                        <span class="norightborder">月评价<em>6000</em>个</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="goodsItem">
+                <div class="goodsItemWrap">
+                    <div class="goodsImg">
+                        <a href="#">
+                            <img src="img/goods/4.jpg" />
+                        </a>
+                    </div>
+                    <p class="goodsPrice">
+                        白茶 <span class="average">直接晒干获得</span>
+                    </p>
+                    <p class="goodsTitle">
+                        祛暑、退热、解毒的功效
+                    </p>
+                    <p class="goodsStatus">
+                        <span>热度<em>6000</em>+</span>
+                        <span class="norightborder">月评价<em>6000</em>个</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="goodsItem">
+                <div class="goodsItemWrap">
+                    <div class="goodsImg">
+                        <a href="#">
+                            <img src="img/goods/5.jpg" />
+                        </a>
+                    </div>
+                    <p class="goodsPrice">
+                        青茶 <span class="average">半发酵获得</span>
+                    </p>
+                    <p class="goodsTitle">
+                        较强的分解、消除脂肪的作用
+                    </p>
+                    <p class="goodsStatus">
+                        <span>热度<em>6000</em>+</span>
+                        <span class="norightborder">月评价<em>6000</em>个</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="goodsItem">
+                <div class="goodsItemWrap">
+                    <div class="goodsImg">
+                        <a href="#">
+                            <img src="img/goods/6.jpg" />
+                        </a>
+                    </div>
+                    <p class="goodsPrice">
+                        花茶 <span class="average">吸收花青而得</span>
+                    </p>
+                    <p class="goodsTitle">
+                        补血，美容瘦身，润肺解毒
+                    </p>
+                    <p class="goodsStatus">
+                        <span>热度<em>6000</em>+</span>
+                        <span class="norightborder">月评价<em>6000</em>个</span>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="page">
+            <div class="pageWrap">
+                <b class="pageNum">
+                    <b class="pagePrev">上一页</b>
+                    <b class="pageCur">1</b>
+                    <a>2</a>
+                    <a>3</a>
+                    <b class="pageBreak">...</b>
+                    <a class="pageNex">下一页</a>
+                </b>
+                <b class="pageSkip">
+                    <form>
+                        共100页，到第
+                 
+                        <input type="text" class="jumpTo" value="1" />
+                        页
+                 
+                        <button type="submit" class="pageBtn">确定</button>
+                    </form>
+                </b>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footerCon">
+            <div id="links">
+                <dl>
+                    <dt>用户指南</dt>
+                    <dd><a href="#">新手指南</a></dd>
+                    <dd><a href="#">茶具使用</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="feedback.html">反馈调查</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>品牌服务</dt>
+                    <dd><a href="#">闪电配送</a></dd>
+                    <dd><a href="#">快捷支付</a></dd>
+                    <dd><a href="#">售后保障</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>商家合作</dt>
+                    <dd><a href="#">商家对接</a></dd>
+                    <dd><a href="#">品牌资质</a></dd>
+                    <dd><a href="#">进场流程</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">平台简介</a></dd>
+                    <dd><a href="#">茶业文化</a></dd>
+                    <dd><a href="#">经营模式</a></dd>
+                    <dd><a href="#">招贤纳士</a></dd>
+                </dl>
+
+            </div>
+            <div id="otherLinks">
+                <a href="#">关于我们</a>|
+               <a href="#">品茶指南</a>|
+               <a href="#">商家合作</a>|
+               <a href="#">联系我们</a>|
+               <a href="#">招贤纳士</a>|
+               <a href="#">反馈调查</a>
+                <a href="#">反馈调查</a>
+            </div>
+            <div id="copyRight">
+                Copyright &copy;2022 - 2026 MobileShop 版权所有 | 消费者维权热线：40088888888
+            </div>
+        </div>
+
+    </div>
+    <script src="js/base.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>用户登录</title>
+    <link type="text/css" rel="stylesheet" href="css/base.css" />
+    <link type="text/css" rel="stylesheet" href="css/register.css" />
+</head>
+<body style="background-image:url(img/beijing.jpg);background-size:cover;" >
+    <div id="siteNav">
+        <div id="siteNavCon">
+            <ul class="left">
+                <li>
+                    <a href="index.html">欢迎来到我的茶馆</a>
+                </li>
+                <li>
+                    <a href="login.html" class="red">登录</a>
+                </li>
+                <li>
+                    <a href="register.html">免费注册</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div id="cntent">
+        <div class="reg">
+            <div class="lb">
+                <img src="img/10.jpg" />
+            </div>
+            <div class="reg-rght">
+                <form action="index.html" method="post">
+                    <fieldset style="text-align: center">
+                        <legend style="text-align: center">用户登录</legend>
+                        <label>
+                            用户名：
+                        <input type="text" id="userName" placeholder="请输入用户名" required="required">
+                        </label>
+                        <br />
+                        <br />
+                        <label>
+                            密  码：
+                        <input type="password" id="userPassword">
+                        </label>
+                        <br />
+                        <br />
+                        <input type="submit" value="登录" name="submitBtn" onclick="login()">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footerCon">
+            <div id="links">
+                <dl>
+                    <dt>用户指南</dt>
+                    <dd><a href="#">新手指南</a></dd>
+                    <dd><a href="#">茶具使用</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="feedback.html">反馈调查</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>品牌服务</dt>
+                    <dd><a href="#">闪电配送</a></dd>
+                    <dd><a href="#">快捷支付</a></dd>
+                    <dd><a href="#">售后保障</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>商家合作</dt>
+                    <dd><a href="#">商家对接</a></dd>
+                    <dd><a href="#">品牌资质</a></dd>
+                    <dd><a href="#">进场流程</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">平台简介</a></dd>
+                    <dd><a href="#">茶业文化</a></dd>
+                    <dd><a href="#">经营模式</a></dd>
+                    <dd><a href="#">招贤纳士</a></dd>
+                </dl>
+
+            </div>
+            <div id="otherLinks">
+                <a href="#">关于我们</a>|
+               <a href="#">品茶指南</a>|
+               <a href="#">商家合作</a>|
+               <a href="#">联系我们</a>|
+               <a href="#">招贤纳士</a>|
+               <a href="#">反馈调查</a>
+                <a href="#">反馈调查</a>
+            </div>
+            <div id="copyRight">
+                Copyright &copy;2022 - 2026 MobileShop 版权所有 | 消费者维权热线：40088888888
+            </div>
+        </div>
+
+    </div>
+    <script src="js/base.js" type="text/javascript"></script>
+    <script src="js/register.js" type="text/javascript"></script>
+</body>
+</html>

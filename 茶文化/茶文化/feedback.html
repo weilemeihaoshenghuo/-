@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>用户反馈</title>
+    <link type="text/css" rel="stylesheet" href="css/base.css" />
+</head>
+<body background="img/top-bg.jpg">
+    <div id="siteNav">
+        <div id="siteNavCon">
+            <ul class="left">
+                <li>
+                    <a href="index.html">欢迎来到我的茶馆</a>
+                </li>
+                <li>
+                    <a href="login.html" class="red">登录</a>
+                </li>
+                <li>
+                    <a href="register.html">免费注册</a>
+                </li>
+            </ul>
+            <ul class="right">
+                <li class="navTitle " id="menu" onmouseover="fun1()" onmouseout="fun2()">
+                    <a href="#">我的订单 <i class="downUp"></i></a>
+                    <ul class="siteNavPanel" id="menuContent">
+                        <li><a href="#">待付款订单</a></li>
+                        <li><a href="#">商品已发货</a></li>
+                        <li><a href="#">待评价订单</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">收藏夹</a></li>
+                <li><a href="#">商品分类</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content" style="background: #fff;">
+        <div style="height: 30px;"></div>
+        <div style="height: 120px;">
+            <h1 style="color: #993333;" align="center">用户反馈</h1>
+            <hr size="2" color="black" style="color: #003300" />
+        </div>
+        <form>
+            <div style="border: 2px solid #ccc; height: 700px; background: #f8f8f8; padding: 20px;">
+                <!--用户反馈表单-->
+
+                1.您常用的账号名是？<input type="text" id="name" placeholder="请输入账号名"><br />
+                2.您常用电话号码是？<input type="text" id="phone" placeholder="请输入电话号码"><br />
+                3.您对目前当当网首页的整体满意度如何？<br />
+                <input type="radio" name="contentment" value="满意">满意
+                <br />
+                <input type="radio" name="contentment" value="一般">一般
+                <br />
+                <input type="radio" name="contentment" value="不满意">不满意
+                <br />
+                4.您访问页面速度的情况是？<br />
+                <input type="radio" name="speed" value="很快">很快
+                <br />
+                <input type="radio" name="speed" value="一般">一般
+                <br />
+                <input type="radio" name="speed" value="较慢">较慢
+                <br />
+                5.您从哪里认识茶文化？<br />
+                <input type="checkbox" value="">朋友介绍
+                <br />
+                <input type="checkbox" value="">报纸看到<br />
+                <input type="checkbox" value="">广告认识<br />
+                其他渠道：<input type="text" placeholder="请输入"><br />
+
+                6.您的意见与建议？<br />
+                <textarea name="suggest" cols="50" rows="4">
+                    
+                    </textarea><br />
+                <br />
+                7.你住在哪个城市？
+                   
+                <select size="1">
+                    <option value="beijing">北京</option>
+                    <option value="shanghai">上海</option>
+                    <option value="shenzhengs">深圳</option>
+                    <option value="guangzhou">广州</option>
+                </select>
+
+                <select size="2">
+                    <option value="beijing">北京</option>
+                    <option value="shanghai">上海</option>
+                    <option value="shenzhengs">深圳</option>
+                    <option value="guangzhou">广州</option>
+                </select>
+                <br />
+                <br />
+                <br />
+                8.你在这里最喜欢什么茶类？
+                   
+                <select size="8">
+                    <optgroup label="白茶">
+                        <option value="gongmei">贡眉</option>
+                        <option value="shoumei">寿眉</option>
+                        <option value="baimudan">白牡丹</option>
+                        <option value="xinbaicha">新白茶</option>
+                    </optgroup>
+                    <optgroup label="黑茶">
+                        <option value="zangcha">藏茶</option>
+                        <option value="liubaocha">六堡茶</option>
+                        <option value="tianjiancha">天尖茶</option>
+                    </optgroup>
+                </select>
+                <br />
+                <br />
+                <br />
+                9.分享你喜欢的茶？
+                 
+                <input type="file">
+                <br />
+                <br />
+
+                <button type="submit">提交</button>
+
+
+            </div>
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <div id="footerCon">
+            <div id="links">
+                <dl>
+                    <dt>用户指南</dt>
+                    <dd><a href="#">新手指南</a></dd>
+                    <dd><a href="#">茶具使用</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="feedback.html">反馈调查</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>品牌服务</dt>
+                    <dd><a href="#">闪电配送</a></dd>
+                    <dd><a href="#">快捷支付</a></dd>
+                    <dd><a href="#">售后保障</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>商家合作</dt>
+                    <dd><a href="#">商家对接</a></dd>
+                    <dd><a href="#">品牌资质</a></dd>
+                    <dd><a href="#">进场流程</a></dd>
+                </dl>
+
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">平台简介</a></dd>
+                    <dd><a href="#">茶业文化</a></dd>
+                    <dd><a href="#">经营模式</a></dd>
+                    <dd><a href="#">招贤纳士</a></dd>
+                </dl>
+
+            </div>
+            <div id="otherLinks">
+                <a href="#">关于我们</a>|
+               <a href="#">品茶指南</a>|
+               <a href="#">商家合作</a>|
+               <a href="#">联系我们</a>|
+               <a href="#">招贤纳士</a>|
+               <a href="#">反馈调查</a>
+                <a href="#">反馈调查</a>
+            </div>
+            <div id="copyRight">
+                Copyright &copy;2022 - 2026 MobileShop 版权所有 | 消费者维权热线：40088888888
+            </div>
+        </div>
+
+    </div>
+    <script src="js/base.js" type="text/javascript"></script>
+
+</body>
+</html>
