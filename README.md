@@ -10,3 +10,7 @@
   包含商品展示列表技术；
   使用jQuery实现包含动态日历功能。
   
+3.硅谷甄选运营平台
+  技术栈：
+  Vue3 + vite + typescript + vue-router + pinia + element-plus + axios + echarts
+  
